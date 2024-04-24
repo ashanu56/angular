@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular';
+  empNames=['Deepansh ','Rahul','PP','Sneha']
+  data=[
+    {
+        name: "deepansh",
+        age: "25"
+    },
+    {
+        name: "rahul",
+        age: "25"
+    },
+  ]
 }
