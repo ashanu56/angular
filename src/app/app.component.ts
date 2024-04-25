@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular';
+  color="orange";
+  err= false;
+  updateColor(){
+    this.color = 'pink';
+    this.err = true;
+  }
 }
