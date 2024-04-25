@@ -6,6 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./users.component.css']
 })
 export class UsersComponent {
-  @Input() twd: any
-  @Input() author: any
+  @Input() user: any
 }

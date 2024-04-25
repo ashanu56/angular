@@ -1,2 +1,4 @@
 <h1>Pass Data Parent To Child Component in angular</h1>
-<app-users [twd]="data" [author]="author"></app-users>
+<div *ngFor="let item of data">
+    <app-users [user]="item"></app-users>
+</div>

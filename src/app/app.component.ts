@@ -8,7 +8,21 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular';
   author = 'Shanu';
-  data={
-        'name':'Deepansh'
-    };
+  data=[
+    {
+        'name':'Deepansh',
+        'age': 25,
+        'address':'Gwalior'
+    },
+    {
+        'name':'Prashant',
+        'age': 48,
+        'address':'Ahmedabad'
+    },
+    {
+        'name':'Rahul',
+        'age': 26,
+        'address':'Kalol'
+    },
+  ];
 }
