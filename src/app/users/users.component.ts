@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class UsersComponent {
   @Input() user: any
+  // @Input() user: { name: string, age: number, address: string };
 }
